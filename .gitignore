@@ -1,0 +1,25 @@
+# Compiled simulation binaries
+*.out
+*.vvp
+a.out
+
+# Waveform dumps
+*.vcd
+*.vpd
+*.fsdb
+
+# Simulation & Tool Logs
+*.log
+yosys.log
+
+# Temporary / EDA output files
+*.tmp
+*.rpt
+*.dot.pid
+
+# OS and Editor artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
+*~
