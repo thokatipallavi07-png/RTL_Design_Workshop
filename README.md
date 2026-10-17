@@ -25,6 +25,9 @@
 ### Part 2: Advanced RTL & Physical Design Modules
 | Module / Section | Focus Area | Link |
 |---|---|---|
+| **Module 1** | Introduction to RTL Design, Simulation & GTKWave Flow | [Module 1](Module%201/) |
+| **Module 2** | Sequential Logic, Yosys Synthesis & Standard Cell Mapping | [Module 2](Module%202/) |
+| **Module 3** | Combinational & Sequential Logic Optimization | [Module 3](Module%203/) |
 | **Module 4** | Gate-Level Simulation (GLS), Blocking vs Non-Blocking Caveats | [Module 4](Module%204/) |
 | **Module 5** | Synthesis Optimization, Case & Generate Constructs | [Module 5](Module%205/) |
 | **Physical Design (VSDBabySoC)** | Synthesis, Floorplan, Placement, CTS, Routing & STA in OpenROAD | [PhysicalDesign](PhysicalDesign/) |
@@ -44,6 +47,9 @@ RTL_Design_Workshop/
 ├── Day-01/ to Day-07/                 # Workshop day-wise notes, RTL code & waveforms
 ├── Labs-BabySoC/                      # VSDBabySoC core integration and lab work
 │
+├── Module 1/                          # RTL design, testbench simulation flow & waveforms
+├── Module 2/                          # Sequential logic synthesis & standard cell library
+├── Module 3/                          # Combinational and sequential logic optimization
 ├── Module 4/                          # Gate-Level Simulation (GLS) & coding styles
 │   ├── README.md
 │   └── *.png                          # GLS waveforms, caveat comparisons
