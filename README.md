@@ -34,6 +34,7 @@
 | **Physical Design (OpenLANE PD)** | Complete 5-Module OpenLANE RTL2GDS Flow on Sky130 | [Physical_Design_PD](Physical_Design_PD/) |
 | **STA Across All Corners** | Multi-Corner Timing Analysis, Summaries, Graphs & Logs | [STA_All_Corners](STA_All_Corners/) |
 | **STA Reports** | Comprehensive Timing Violation & Path Reports | [STA_Report_All_Corners](STA_Report_All_Corners/) |
+| **Traffic Light Controller** | Complete Traffic Light Controller (iiitb_tlc) RTL-to-GDSII Project | [Traffic_Light_Controller](Traffic_Light_Controller/) |
 
 ---
 
@@ -79,9 +80,17 @@ RTL_Design_Workshop/
 │   ├── graphs/                        # Delay and slew variation graphs
 │   └── logs/                          # OpenSTA run logs
 │
-└── STA_Report_All_Corners/            # Comprehensive STA reports & VSDBabySoC PDF
-    ├── VSDBabySoC_STA_Report.pdf
-    └── reports/
+├── STA_Report_All_Corners/            # Comprehensive STA reports & VSDBabySoC PDF
+│   ├── VSDBabySoC_STA_Report.pdf
+│   └── reports/
+│
+└── Traffic_Light_Controller/          # Traffic Light Controller (iiitb_tlc) RTL-to-GDSII Project
+    ├── iiitb_tlc.v                    # Verilog RTL design
+    ├── iiitb_tlc_tb.v                 # Verilog testbench
+    ├── yosys_run.sh                   # Yosys synthesis script
+    ├── config.json                    # OpenLANE configuration
+    ├── lib/                           # Sky130 standard cell timing libraries
+    └── README.md                      # Detailed design & flow documentation
 ```
 
 ---
