@@ -339,3 +339,6 @@ This project provides practical experience in Verilog RTL design, functional ver
 ## 📜 License & Acknowledgments
 
 This repository is maintained for academic and educational purposes as part of the VLSI System Design (VSD) workshop. Special thanks to the workshop instructors, VSD team, and the open-source EDA community for providing open-source tools, PDKs, and design frameworks.
+
+project presentation video https://drive.google.com/file/d/1my1Lgy2gzlBAVptU9owevN0HuWlUcoV7/view?usp=sharing
+
